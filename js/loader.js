@@ -24,7 +24,7 @@ async function loadJSON(name) {
  */
 async function loadSelect() {
   const json = await loadJSON('data');
-  let regions = [];
+  const regions = [];
   let html = '';
 
   json.forEach(item => {
@@ -58,8 +58,8 @@ async function formatData(region, name) {
     if (!region || item['region'] === region) {
       if (!name || item['name'].toLowerCase().includes(name.toLowerCase())) {
         html += `
-          <article class="shadow-soft-full object-contain gap-5 rounded-md dark:text-white dark:shadow-hard-full dark:bg-grey-400">
-            <img src="${item['flags']['png']}" alt="${item['name']} flags" class="rounded-t-md">
+          <article class="shadow-soft-full object-contain gap-5 rounded-md dark:text-white dark:shadow-hard-full dark:bg-grey-950 h-[400px] w-[300px]">
+            <img src="${item['flags']['png']}" alt="${item['name']} flags" class=" w-full h-2/4 object-cover rounded-t-md">
             <div class="p-6 mb-6">
               <h2 class="font-bold mb-6 text-lg">${item['name']}</h2>
               <ul>
