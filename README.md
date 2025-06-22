@@ -22,13 +22,13 @@ This is a solution to the [REST Countries API with color theme switcher challeng
 
 ### Screenshot
 
-![](./screen.png)
 ![](./screen1.png)
+![](./screen.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/LINDECKER-Charles/FM-ArticlePreviewComponent)
-- Live Site URL: [Add live site URL here](https://fm-article-preview-component-psi.vercel.app)
+- Solution URL: [Add solution URL here](https://github.com/LINDECKER-Charles/FM-RESTCountriesAPIWithColorThemeSwitcher)
+- Live Site URL: [Add live site URL here](https://fm-rest-countries-api-with-color-th.vercel.app)
 
 ## My process
 
